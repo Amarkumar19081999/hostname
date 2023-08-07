@@ -7,7 +7,7 @@ pipeline
         {
             steps
             {
-                sh "ansible-playbook /root/linux/main.yml -i /root/linux/inventory/hosts"
+                sh "ansible-playbook /root/windows/main.yml -i /root/windows/inventory/hosts"
             }
         }
     }
